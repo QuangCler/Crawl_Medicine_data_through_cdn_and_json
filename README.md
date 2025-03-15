@@ -42,13 +42,17 @@ I successfully extracted and processed **2000+ PDFs and images** from website da
 ## 📂 Project Structure
 ```
 Crawl_Medicine_data/
-│── .gitattributes                     # Git settings
-│── convert_first_page_of_pdf_to_jpg.py # Convert first page of PDF to JPG
-│── crawl_image_medicine.py            # Crawl medicine-related images
-│── crawl_pdf_medicine.py              # Crawl medicine data from PDFs
-│── data.json                           # JSON file to store crawled data
-│── README.md                           # Project documentation
-│── requirements.txt                    # Dependencies file
+│── Demo_images/                       # Folder containing demo images
+│── downloaded_images/                 # Folder for storing downloaded images
+│── downloaded_pdfs/                   # Folder for storing downloaded PDFs
+│── .gitattributes                      # Git settings file
+│── convert_first_page_of_pdf_to_jpg.py # Script to convert first page of PDF to JPG
+│── crawl_image_medicine.py             # Script to crawl medicine-related images
+│── crawl_pdf_medicine.py               # Script to crawl medicine data from PDFs
+│── data.json                            # JSON file to store crawled data
+│── README.md                            # Project documentation
+│── requirements.txt                     # Dependencies file
+
 ```
 
 ---

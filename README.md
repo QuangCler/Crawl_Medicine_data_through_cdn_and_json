@@ -12,11 +12,16 @@
 ---
 
 ## 📂 Project Structure
-Crawl_Medicine_data/ │── .gitattributes # Git settings │── convert_first_page_of_pdf_to_jpg.py # Convert first page of PDF to JPG │── crawl_image_medicine.py # Crawl medicine-related images │── crawl_pdf_medicine.py # Crawl medicine data from PDFs │── data.json # JSON file to store crawled data │── README.md # Project documentation │── requirements.txt # Dependencies file
-
-yaml
-Sao chép
-Chỉnh sửa
+```
+Crawl_Medicine_data/
+│── .gitattributes                     # Git settings
+│── convert_first_page_of_pdf_to_jpg.py # Convert first page of PDF to JPG
+│── crawl_image_medicine.py            # Crawl medicine-related images
+│── crawl_pdf_medicine.py              # Crawl medicine data from PDFs
+│── data.json                           # JSON file to store crawled data
+│── README.md                           # Project documentation
+│── requirements.txt                    # Dependencies file
+```
 
 ---
 
@@ -26,40 +31,55 @@ Chỉnh sửa
 ```bash
 git clone https://github.com/QuangCler/Crawl_Medicine_data_through_cdn_and_json.git
 cd Crawl_Medicine_data_through_cdn_and_json
-2️⃣ Create a virtual environment (optional but recommended)
-bash
-Sao chép
-Chỉnh sửa
+```
+
+### 2️⃣ Create a virtual environment (optional but recommended)  
+```bash
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
-3️⃣ Install dependencies
-bash
-Sao chép
-Chỉnh sửa
+```
+
+### 3️⃣ Install dependencies  
+```bash
 pip install -r requirements.txt
-🏃‍♂️ Usage
-Convert First Page of PDF to JPG
-bash
-Sao chép
-Chỉnh sửa
+```
+
+---
+
+## 🏃‍♂️ Usage
+
+### Convert First Page of PDF to JPG  
+```bash
 python convert_first_page_of_pdf_to_jpg.py
-Crawl Medicine Image Data
-bash
-Sao chép
-Chỉnh sửa
+```
+
+### Crawl Medicine Image Data  
+```bash
 python crawl_image_medicine.py
-Crawl PDF Medicine Data
-bash
-Sao chép
-Chỉnh sửa
+```
+
+### Crawl PDF Medicine Data  
+```bash
 python crawl_pdf_medicine.py
-🏗️ Future Improvements
-🔄 Support for additional APIs and document formats.
-📊 Data visualization and analysis tools.
-🔍 Improved error handling and logging.
-🤝 Contribution
-Feel free to submit issues, pull requests, or suggestions to improve the project.
+```
 
-📜 License
-This project is licensed under the MIT License.
+---
 
+## 🏗️ Future Improvements  
+- 🔄 **Support for additional APIs and document formats**.  
+- 📊 **Data visualization and analysis tools**.  
+- 🔍 **Improved error handling and logging**.  
+
+---
+
+## 🤝 Contribution  
+Feel free to submit **issues, pull requests, or suggestions** to improve the project.
+
+---
+
+## 📜 License  
+This project is licensed under the **MIT License**.
+
+---
+
+📌 **Developed by [Your Name]** | 🚀 Happy Crawling!

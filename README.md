@@ -9,6 +9,34 @@
 - ✅ **Parse JSON responses** from medical APIs.
 - ✅ Store and manage extracted data in `data.json`.
 
+## 📊 Result Summary
+
+I successfully extracted and processed **2000+ PDFs and images** from website data.
+
+### 📄 Extracted PDFs  
+✅ **2000+ medical PDFs** collected from various sources.
+
+![PDF Demo](https://github.com/QuangCler/Crawl_Medicine_data_through_cdn_and_json/blob/main/Demo_images/crawl_pdf_medicine.png)
+
+---
+
+### 🖼️ Extracted Images  
+✅ **2000+ images of medicines** extracted and processed.
+
+![Image Demo](https://github.com/QuangCler/Crawl_Medicine_data_through_cdn_and_json/blob/main/Demo_images/crawl_image_medicine.png)
+
+---
+
+### 📂 Summary Table
+
+| Data Type  | Quantity | Storage Format |
+|------------|---------|----------------|
+| 📄 PDFs    | 2000+   | `.pdf` files in `/data/pdfs/` |
+| 🖼️ Images  | 2000+   | `.jpg` / `.png` in `/data/images/` |
+| 📊 JSON    | Structured | Stored in `data.json` |
+
+✅ **All data successfully crawled and saved!**
+
 ---
 
 ## 📂 Project Structure
